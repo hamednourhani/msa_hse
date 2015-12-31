@@ -7,3 +7,22 @@ Author URI:		http://karait.com/
 Template:       ronneby
 Version:        1.0.0
 */
+/*---------------------WPML---------------------------*/
+#lang_sel_list ul a.lang_sel_other, #lang_sel li ul a:link, #lang_sel_list ul a.lang_sel_other:visited,
+#lang_sel_list a.lang_sel_sel, #lang_sel_list a.lang_sel_sel:visited  {
+    background : none !important;
+    color : white !important;
+    margin-top :8px;
+    }
+#lang_sel_list ul {
+    border-top: 0px !important;
+/*padding-top : 20px !important;*/
+}
+.headroom--unpinned #lang_sel_list ul a{
+    margin-top: 20px !important;
+    }
+
+table tbody{
+	display: table;
+	width : 100%;
+}

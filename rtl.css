@@ -15,3 +15,15 @@ body {
    }
   /* line 7, sass/rtl/base/_base.scss */
  
+
+ /*----------------menu--------------------------------*/
+ .nav-menu .mega-menu-item .item-title i {
+    padding-right : 1px;
+    padding-left: 10px;
+  }
+  #side-area nav.mega-menu ul.nav-menu{
+    text-align: right;
+  }
+  #side-area > div.side_area_title{
+    text-align: center;
+  }
