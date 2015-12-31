@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Weblogma_Yekan";
+  src: url('fonts/Weblogma_Yekan.eot?1444813111');
+  src: url('fonts/Weblogma_Yekan.eot?&1444813111#iefix') format('embedded-opentype'), url('fonts/Weblogma_Yekan.ttf?1444813111') format('truetype'), url('fonts/Weblogma_Yekan.woff?1444813111') format('woff');
+  font-weight: "Weblogma_Yekan.svg"; }
+
+/*------ colors -----------*/
+/* base style */
+/* line 2, sass/rtl/base/_base.scss */
+body {
+  font-family: "Weblogma_Yekan";
+  direction: rtl;
+  font-size: 130%;
+  line-height: 180%;
+   }
+  /* line 7, sass/rtl/base/_base.scss */
+ 
