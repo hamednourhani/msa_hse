@@ -27,3 +27,8 @@ body {
   #side-area > div.side_area_title{
     text-align: center;
   }
+  /*---------------footer--------------------------*/
+  .widget_dfd_vcard_simple,
+  #footer .widget_dfd_vcard_simple{
+    text-align: right;
+  }
