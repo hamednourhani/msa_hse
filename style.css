@@ -26,6 +26,12 @@ table tbody{
 	display: table;
 	width : 100%;
 }
+
+/*----------------------header--------------------*/
+#header-container.header-style-1:not(.small) #header .header-wrap {
+    height: 98px;
+    padding: 12px;
+}
 /*----------------footer---------------------*/
 #footer .widget .widget-title {
     color: white;

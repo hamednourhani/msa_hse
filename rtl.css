@@ -27,6 +27,21 @@ body {
   #side-area > div.side_area_title{
     text-align: center;
   }
+  .header-col-left{
+    float : right !important;
+  }
+  .header-col-right{
+    float :left !important;
+  }
+  #header-container.logo-position-left:not(.small) .header-col-fluid {
+    margin-left: 220px;
+    margin-right: 400px;
+}
+#header-container #header .header-wrap > .row:last-child .header-main-panel .header-col-fluid .fixed-header-logo {
+    
+    right: 10px;
+    left : auto;
+}
   /*---------------footer--------------------------*/
   .widget_dfd_vcard_simple,
   #footer .widget_dfd_vcard_simple{
