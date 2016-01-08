@@ -27,10 +27,16 @@ table tbody{
 	width : 100%;
 }
 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    color: #efefef;
+}
 /*----------------------header--------------------*/
 #header-container.header-style-1:not(.small) #header .header-wrap {
     height: 98px;
     padding: 12px;
+}
+div.page-title-inner .page-title {
+    color: #fff !important;
 }
 /*----------------footer---------------------*/
 #footer .widget .widget-title {

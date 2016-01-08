@@ -1,14 +1,20 @@
-@font-face {
+/*@font-face {
   font-family: "Weblogma_Yekan";
   src: url('fonts/Weblogma_Yekan.eot?1444813111');
   src: url('fonts/Weblogma_Yekan.eot?&1444813111#iefix') format('embedded-opentype'), url('fonts/Weblogma_Yekan.ttf?1444813111') format('truetype'), url('fonts/Weblogma_Yekan.woff?1444813111') format('woff');
-  font-weight: "Weblogma_Yekan.svg"; }
+  font-weight: "Weblogma_Yekan.svg"; }*/
+
+  @font-face {
+  font-family: "Yekan";
+  src: url('fonts/Yekan.eot?1444813111');
+  src: url('fonts/Yekan.eot?&1444813111#iefix') format('embedded-opentype'), url('fonts/Yekan.ttf?1444813111') format('truetype'), url('fonts/Yekan.woff?1444813111') format('woff');
+  font-weight: "Yekan.svg"; }
 
 /*------ colors -----------*/
 /* base style */
 /* line 2, sass/rtl/base/_base.scss */
 body {
-  font-family: "Weblogma_Yekan";
+  font-family: "Yekan" !important;
   direction: rtl;
   font-size: 130%;
   line-height: 180%;
@@ -35,7 +41,7 @@ body {
   }
   #header-container.logo-position-left:not(.small) .header-col-fluid {
     margin-left: 220px;
-    margin-right: 400px;
+    margin-right: 270px;
 }
 #header-container #header .header-wrap > .row:last-child .header-main-panel .header-col-fluid .fixed-header-logo {
     
