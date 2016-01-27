@@ -8,7 +8,7 @@
   font-family: "Yekan";
   src: url('fonts/Yekan.eot?1444813111');
   src: url('fonts/Yekan.eot?&1444813111#iefix') format('embedded-opentype'), url('fonts/Yekan.ttf?1444813111') format('truetype'), url('fonts/Yekan.woff?1444813111') format('woff');
-  font-weight: "Yekan.svg"; }
+  font-weight: normal; }
 
 /*------ colors -----------*/
 /* base style */
@@ -36,17 +36,48 @@ body {
   .header-col-left{
     float : right !important;
   }
+
+@media only screen and (min-width:1100px) {
+    .header-col-left {
+        float: none !important;
+        width: 100%;
+        text-align: center;
+    }
+    #header-container.logo-position-left:not(.small) .header-col-left{
+        width:100%;
+    }
+    #header-container #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel a {
+        text-align: center;
+    }
+    .side-area-controller-wrap{
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 1100px) {
+    #header-container.logo-position-left:not(.small) #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel .inline-block img {
+        position: relative !important;
+    }
+    nav.mega-menu {
+       text-align: right !important;
+    }
+}
   .header-col-right{
     float :left !important;
   }
-  #header-container.logo-position-left:not(.small) .header-col-fluid {
+#header-container.logo-position-left:not(.small) .header-col-fluid {
     margin-left: 220px;
-    margin-right: 270px;
+    margin-right: 0px;
+    margin-top: 40px;
 }
+
 #header-container #header .header-wrap > .row:last-child .header-main-panel .header-col-fluid .fixed-header-logo {
     
     right: 10px;
     left : auto;
+}
+#header-container #header .header-wrap > .row:last-child .header-main-panel .header-col-right .header-icons-wrapper > * {
+    float: left;
 }
   /*---------------footer--------------------------*/
   .widget_dfd_vcard_simple,

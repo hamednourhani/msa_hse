@@ -32,13 +32,87 @@ table tbody{
 }*/
 /*----------------------header--------------------*/
 #header-container.header-style-1:not(.small) #header .header-wrap {
-    height: 98px;
+    height: 140px;
     padding: 12px;
 }
 div.page-title-inner .page-title {
     color: #fff !important;
 }
+@media only screen and (min-width:1100px) {
+    .header-col-left {
+        float: none !important;
+        width: 100% !important;
+        text-align: center;
+    }
+    #header-container.logo-position-left:not(.small) #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel .inline-block img{
+        position: relative;
+    }
+    #header-container #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel a {
+        text-align: center !important;
+    }
+
+}
+@media only screen and (min-width: 1100px) {
+    #header-container.logo-position-left:not(.small) #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel .inline-block img {
+        position: relative !important;
+    }
+    nav.mega-menu {
+        text-align: left !important;
+    }
+    .side-area-controller-wrap{
+        display: none;
+    }
+}
+#header-container.logo-position-left:not(.small) .header-col-fluid {
+    margin-left: 0px !important;
+    margin-right: 220px;
+    margin-top: 40px;
+}
+.nav-menu .mega-menu-item .item-title:hover {
+    background-color: red;
+}
+#lang_sel_list.lang_sel_list_vertical a {
+    /* border: 1px solid #cdcdcd; */
+    border : 0px;
+    display:inline-block;
+}
+#lang_sel_list {
+    z-index: 9999;
+}
+@media only screen and (max-width: 1100px){
+    #header-container:not(.small):not(.logo-position-right) #header .header-wrap > .row:last-child .columns.header-main-panel .header-col-right {
+        width: 280px;
+    }
+}
+.header-wrap{
+    background-color: #1E73BE;
+}
+#header-container:not(.small) #header .header-wrap > .row:last-child .columns.header-main-panel .header-col-left .mobile-logo img {
+    max-height: 90px !important;
+    width: 200px;
+}
+
+@media only screen and (min-width: 570px) {
+    #header-container:not(.small) #header .header-wrap > .row:last-child .columns.header-main-panel .header-col-left .mobile-logo img {
+        max-height:90px !important;
+        width: 300px;
+    }
+}
+@media only screen and (max-width:480px) {
+    #header-container:not(.small):not(.logo-position-right) #header .header-wrap > .row:last-child .columns.header-main-panel .header-col-right {
+        width: 160px !important;
+    }
+}
+.dl-menuwrapper {
+    border: 1px solid white;
+    padding: 2px 2px;
+}
 /*----------------footer---------------------*/
 #footer .widget .widget-title {
     color: white;
+}
+#footer {
+    background : none !important;
+    background-color: #667 !important;
+
 }
