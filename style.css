@@ -107,6 +107,12 @@ div.page-title-inner .page-title {
     border: 1px solid white;
     padding: 2px 2px;
 }
+.wpcf7 form input[type="submit"]{
+    background-color : #0095dd !important;
+    background : #0095dd !important;
+    color : white !important;
+}
+
 /*----------------footer---------------------*/
 #footer .widget .widget-title {
     color: white;
@@ -115,4 +121,10 @@ div.page-title-inner .page-title {
     background : none !important;
     background-color: #667 !important;
 
+}
+#footer.footer-style-2 {
+    padding: 30px 0 20px !important;
+}
+.widget.soc-icons.dfd-soc-icons-hover-style-4{
+    display : none;
 }
