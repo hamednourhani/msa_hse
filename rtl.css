@@ -51,6 +51,13 @@ div.page-title-inner .page-title {
     #header-container #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel a {
         text-align: center !important;
     }
+    #header-container #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel .logo-msa {
+        float: right !important;
+    }
+    #header-container.logo-position-left:not(.small) #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel .inline-block a img {
+        margin-right: -50px;
+        margin-left: auto;
+    }
     .side-area-controller-wrap{
         display: none;
     }
