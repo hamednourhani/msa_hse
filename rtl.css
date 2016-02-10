@@ -20,8 +20,10 @@ body {
   line-height: 180%;
    }
   /* line 7, sass/rtl/base/_base.scss */
- 
 
+div.page-title-inner .page-title {
+    font-family: Yekan;
+}
  /*----------------menu--------------------------------*/
  .nav-menu .mega-menu-item .item-title i {
     padding-right : 1px;
@@ -47,7 +49,7 @@ body {
         width:100%;
     }
     #header-container #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel a {
-        text-align: center;
+        text-align: right !important;
     }
     .side-area-controller-wrap{
         display: none;
