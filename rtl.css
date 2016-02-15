@@ -21,9 +21,9 @@ body {
    }
   /* line 7, sass/rtl/base/_base.scss */
 
-div.page-title-inner .page-title {
-    font-family: Yekan;
-}
+/*div.page-title-inner .page-title {*/
+    /*font-family: Yekan;*/
+/*}*/
  /*----------------menu--------------------------------*/
  .nav-menu .mega-menu-item .item-title i {
     padding-right : 1px;
@@ -55,7 +55,7 @@ div.page-title-inner .page-title {
         float: right !important;
     }
     #header-container.logo-position-left:not(.small) #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel .inline-block a img {
-        margin-right: -50px;
+        margin-right: -112px;
         margin-left: auto;
     }
     .side-area-controller-wrap{

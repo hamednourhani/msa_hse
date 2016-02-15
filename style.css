@@ -32,11 +32,19 @@ table tbody{
 }*/
 /*----------------------header--------------------*/
 #header-container.header-style-1:not(.small) #header .header-wrap {
-    height: 140px;
+    height: 170px;
     padding: 12px;
 }
 div.page-title-inner .page-title {
-    color: #88d4fe !important;
+    color: #fff !important;
+    text-decoration: underline;
+    font-size: 30px !important
+}
+div.page-title-inner {
+
+    min-height: 80px !important;
+    height: 80px !important;
+
 }
 @media only screen and (min-width:1100px) {
     .header-col-left {
@@ -54,7 +62,7 @@ div.page-title-inner .page-title {
         float: left !important;
     }
     #header-container.logo-position-left:not(.small) #header .header-wrap > .row:last-child .header-main-panel .logo-for-panel .inline-block a img {
-        margin-left: -50px;
+        margin-left: -112px;
     }
 
 
@@ -134,4 +142,11 @@ div.page-title-inner .page-title {
 }
 .widget.soc-icons.dfd-soc-icons-hover-style-4{
     display : none;
+}
+.subfooter-copyright a{
+    color : #fff !important;
+}
+.subfooter-copyright a:hover,
+.subfooter-copyright a:focus{
+    color : #E7C67E !important;
 }
