@@ -31,6 +31,21 @@ table tbody{
     color: #efefef;
 }*/
 /*----------------------header--------------------*/
+#header{
+    position: fixed;
+}
+#header .header-wrap{
+    background: url("images/header-background.png") top left no-repeat !important;
+    background-size: cover !important;
+
+}
+.header-col-fluid {
+    background-color: #1E73BE;
+    /*border-bottom : 3px solid #eeeeee;*/
+    -moz-box-shadow: 0px 0px 4px 1px #4E4E4E;
+    -webkit-box-shadow: 0px 0px 4px 1px #4E4E4E;
+    box-shadow: 0px 0px 4px 1px #4E4E4E;
+}
 #header-container.header-style-1:not(.small) #header .header-wrap {
     height: 170px;
     padding: 12px;
@@ -45,6 +60,18 @@ div.page-title-inner {
     min-height: 80px !important;
     height: 80px !important;
 
+}
+#header-container #header .header-wrap > .row:last-child .header-main-panel .header-col-right {
+    padding-top: 40px;
+}
+#header-container #header .header-wrap > .row:last-child .header-main-panel .header-col-fluid {
+    width: 100%;
+}
+.form-search-wrap {
+    padding: 6px 19px;
+}
+#lang_sel_list ul a.lang_sel_other, #lang_sel li ul a:link, #lang_sel_list ul a.lang_sel_other:visited, #lang_sel_list a.lang_sel_sel, #lang_sel_list a.lang_sel_sel:visited {
+    margin-top: 2px;
 }
 @media only screen and (min-width:1100px) {
     .header-col-left {
