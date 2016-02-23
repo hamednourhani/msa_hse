@@ -1,8 +1,3 @@
-/*@font-face {
-  font-family: "Weblogma_Yekan";
-  src: url('fonts/Weblogma_Yekan.eot?1444813111');
-  src: url('fonts/Weblogma_Yekan.eot?&1444813111#iefix') format('embedded-opentype'), url('fonts/Weblogma_Yekan.ttf?1444813111') format('truetype'), url('fonts/Weblogma_Yekan.woff?1444813111') format('woff');
-  font-weight: "Weblogma_Yekan.svg"; }*/
 
   @font-face {
   font-family: "Yekan";
@@ -38,7 +33,17 @@ body {
   .header-col-left{
     float : right !important;
   }
-
+div.page-title-inner .page-title,
+.widget,a,p,table,tr,th,td,
+.subfooter-copyright{
+    font-family: "Yekan";
+}
+.widget-title,
+.nav-menu li,
+.nav-menu a,
+h1,h2,h3,h4,h5,h6{
+    font-family: Yekan !important;
+}
 @media only screen and (min-width:1100px) {
     .header-col-left {
         float: none !important;
