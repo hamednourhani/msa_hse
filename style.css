@@ -31,8 +31,25 @@ table tbody{
     color: #efefef;
 }*/
 /*----------------------header--------------------*/
-#header{
-    position: fixed;
+/*#header{*/
+
+    /*position: fixed;*/
+/*}*/
+#wpadminbar{
+    display : none;
+}
+body.admin-bar {
+    padding-top: 0px !important;
+}
+.header-col-fluid.scroll-to-fixed-fixed {
+    margin-top: 0px !important;
+}
+#header-container,
+#header-container #header{
+    position : relative !important;
+}
+#menu-fixer{
+    height : auto !important;
 }
 #header .header-wrap{
     background: url("images/header-background.png") top left no-repeat !important;

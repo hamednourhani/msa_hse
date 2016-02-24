@@ -7,8 +7,10 @@ add_shortcode( 'wpml_lang_selector', 'wpml_shortcode_func' );
 
 function msa_scripts_and_scripts()
 {
-        wp_register_script( 'msa-main-js', get_stylesheet_directory_uri() . '/js/main.js', array('jquery'), '', true );
+        wp_register_script( 'msa-main-js', get_stylesheet_directory_uri() . '/js/main.js', array('jquery',"scrolltofixed"), '', true );
+        wp_register_script( 'scrolltofixed', get_stylesheet_directory_uri() . '/js/jquery-scrolltofixed-min.js', array('jquery'), '', true );
         wp_enqueue_script('msa-main-js');
+        wp_enqueue_script('scrolltofixed');
 }
 add_action( 'wp_enqueue_scripts', 'msa_scripts_and_scripts', 999 );
 
