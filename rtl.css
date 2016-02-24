@@ -41,7 +41,9 @@ div.page-title-inner .page-title,
 .widget-title,
 .nav-menu li,
 .nav-menu a,
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,
+.form-search-section input[type="text"],
+.form-search-section *::-moz-placeholder{
     font-family: Yekan !important;
 }
 @media only screen and (min-width:1100px) {

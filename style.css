@@ -153,14 +153,11 @@ div.page-title-inner {
     pointer-events: none;
     background: rgba(255, 255, 255, 0.9);
 }
-.nav-menu div.sub-nav a{
-    color : #0a0a0a !important;
-}
-.nav-menu div.sub-nav a:hover{
-    color : #586b9b !important;
-}
-div.sub-nav.open {
-    top: 50px !important;
+
+@media only screen and (min-width: 800px) {
+    .nav-menu div.sub-nav.open {
+        top: 51px !important;
+    }
 }
 div#stuning-header {
     border-bottom: 3px solid #980505 !important;
