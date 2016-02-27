@@ -152,6 +152,12 @@ div.page-title-inner {
     -webkit-text-shadow: 0px;
     text-shadow: 0px;
 }
+nav.mega-menu {
+    text-align: left !important;
+}
+.nav-menu .mega-menu-item .item-title {
+    font-size: 12px !important;
+}
 .nav-menu .mega-menu-item .item-title:hover {
 
     /*background-color: red;*/
@@ -178,6 +184,9 @@ div.page-title-inner {
 }
 div#stuning-header {
     border-bottom: 3px solid #980505 !important;
+}
+#lang_sel_list.lang_sel_list_vertical {
+    width: 100px !important;
 }
 #lang_sel_list.lang_sel_list_vertical a {
     /* border: 1px solid #cdcdcd; */
